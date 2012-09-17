@@ -7,12 +7,12 @@ am="$GIT_AUTHOR_EMAIL"
 cn="$GIT_COMMITTER_NAME"
 cm="$GIT_COMMITTER_EMAIL"
 
-if [ "$GIT_COMMITTER_EMAIL" = "codguru@users.sourceforge.net" ]
+if [ "$GIT_COMMITTER_EMAIL" = $1 ]
 then
     cn="codeguru"
     cm="codeguru@users.sourceforge.net"
 fi
-if [ "$GIT_AUTHOR_EMAIL" = "codguru@users.sourceforge.net" ]
+if [ "$GIT_AUTHOR_EMAIL" = $1 ]
 then
     an="codeguru"
     am="codeguru@users.sourceforge.net"
