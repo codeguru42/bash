@@ -4,7 +4,9 @@ alias lla="ls -la"
 
 alias sf="ssh -t codeguru,bbct@shell.sf.net create"
 
-export JAVA_HOME="/e/programs/java/jdk1.7.0_06"
+export JDK_7=/e/programs/java/jdk1.7.0_06
+export JDK_6=/e/programs/java/i586/jdk1.6.0_35
+export JAVA_HOME=$JDK_6
 export NETBEANS_HOME="/e/programs/java/NetBeans 7.2"
 export ANT_HOME="$NETBEANS_HOME/java/ant"
 export ANDROID_SDK_HOME="/e/programs/java/android-sdk"
